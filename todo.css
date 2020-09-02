@@ -1,0 +1,83 @@
+body{
+    font-family: helvetica;
+    padding: 20px;
+    background-color:#444;
+}
+#main{
+    display:flex;
+}
+
+#links{
+    display:flex;
+}
+
+.class{
+    flex:1;
+    padding: 10px;
+    margin: 10px 10px 0px;
+    border-radius: 10px;
+    height:100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition:0.1s;
+}
+
+.class:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: 0px 10px;
+}
+
+h1,h5{
+    margin-top:0;
+}
+
+hr{
+    height:1px;
+    border-width:0;
+    opacity:25%;
+    color:black;
+    background-color:black
+}
+
+.task{
+    position: static;
+    padding: 5px;
+    padding-top: 10px;
+    margin-bottom:10px;
+    background-color:rgba(0,0,0,0.1);
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.num{
+    margin-right: 10px;
+    font-size:xx-large;
+    display: block;
+    font-weight: bold;
+    float:right;
+    color: rgba( 0,0,0, 0.4);
+}
+
+i{
+    font-size:small;
+}
+
+.link{
+    display: block;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px 10px 10px;
+    margin-bottom: 20px;
+    width:min-content;
+    height:min-content;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition:0.1s;
+    
+}
+.link:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: 0px 10px 10px;
+}
